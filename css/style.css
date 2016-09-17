@@ -936,12 +936,30 @@ img {
 	color: #fff;
 	border: none;
 }
+@media screen and (max-width:767px) {
+  .jossy-twitter {
+    padding-left: 5%;
+    padding-right:5%;
+  }
 
-/* Twitter widget */
 
-a.twitter-timeline {
-	font-size 12px important;
-	color: green;
+}
+@media (min-width:768px) {
+  .jossy-twitter {
+    padding-left: 12%;
+    padding-right:12%;
+  }
 }
 
-
+@media (min-width:992px) {
+  .jossy-twitter {
+    padding-left: 22%;
+    padding-right:22%;
+  }
+}
+@media (min-width:1200px) {
+  .jossy-twitter {
+    padding-left: 30%;
+    padding-right:30%;
+  }
+}
