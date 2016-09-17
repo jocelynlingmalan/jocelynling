@@ -936,3 +936,12 @@ img {
 	color: #fff;
 	border: none;
 }
+
+/* Twitter widget */
+
+a.twitter-timeline {
+	font-size 12px important;
+	color: green;
+}
+
+
